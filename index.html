@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIND QUIZ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="QUIZ 2.html" />
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head> 
+  <body>
+    <!-- Main section -->
+    <header>
+      
+        <div class="hamburger" onclick="toggleMenu(this)">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="options">
+              <a href="index.html">Home</a>
+              <a href="hmtl Quiz .html">Quiz</a>
+              <a href="#">About Us</a>
+          </div>
+      </div>
+  
+      </div>
+      <div class="logo">
+        <img src="images/logo.png" alt="" style="height: auto; width: 120px" />
+      </div>
+      <div class="login">
+        <h4>
+          <a href="#">Login / </a>
+          <a href="#">Registration</a>  
+        </h4>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="hero-section">
+        <div class="slide-right">
+          <h1 style="font-weight: 1000">Welcome to the programming Quiz.</h1>
+          <br />
+          <h2 style="font-size: 1.2rem">
+            You Have to give answer of our few questions to check your
+            programming knowledge.
+          </h2>
+        </div>
+      </div>
+      <div class="scroll-btn">
+        <h3>scroll down to go quiz info page</h3>
+      </div>
+    </div><hr>
+
+    
+    <!-- second starts from here -->
+    <section>
+      <div id="quizInfo">
+        <div id="quiz">
+        <div class="quizcategory">
+          <h1 id="Select" style="font-weight: 1000;">Select your category according to your level.</h1><BR></BR>
+          <div id="rowcon">
+          <div id="rows">
+            <div class="row">
+           <a href="hmtl Quiz .html"><h1 ">Level 1. HTML</h1></a>   
+            </div>
+          </div>
+          <div id="rows">
+            <div class="row">
+           <a href="css.html"><h1>Level 2. CSS</h1></a>   
+            </div>
+          </div>
+          <div id="rows">
+            <div class="row">
+              <a href="QUIZ 2.html"><h1>Level 3. Javascript</h1></a>   
+            </div>
+          </div>  
+        </div>
+        </div><br><br><br>
+        <div class="card">
+          <div class="cardbg">
+            <div class="cardinfo">
+              <h3>
+                Quiz 01
+              </h3><br>
+              <h4>HTML</h4><br><br>
+              <div class="text">
+                <h3>Questions</h3>
+                <h4>08</h4>
+              </div><br><hr style="width: 13rem;"><br>
+              <div class="btn-start">
+                <button>
+                 <a href="hmtl Quiz .html">Start Quiz</a> 
+                </button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    
+    <script>
+      function toggleMenu(x) {
+        x.classList.toggle("open");
+      }
+    </script>
+  </body>
+</html>

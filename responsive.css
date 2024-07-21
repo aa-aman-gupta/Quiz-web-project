@@ -1,0 +1,195 @@
+/* Small size phones */
+
+@media (max-width: 320px) {
+  header {
+    padding: 0px 6px;
+    font-size: 12px;
+  }
+  #quiz {
+    top: 20px;
+    position: relative;
+  }
+  .hamburger {
+    width: 30px;
+    height: 20px;
+  }
+  #quizInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .quizcategory {
+    position: relative;
+    left: 26px;
+  }
+  .card {
+    top: 0px;
+    position: relative;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* medium size phone */
+
+@media (min-width: 321px) and (max-width: 376px) {
+  header {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+  .hamburger {
+    width: 30px;
+    height: 20px;
+  }
+  .main {
+    padding: 5px;
+  }
+  #quiz {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #quizInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .quizcategory {
+    position: relative;
+    left: 26px;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+  #rowcon {
+    position: relative;
+    left: 25px;
+  }
+}
+
+/* large size mobile */
+@media (min-width: 376px) and (max-width: 426px) {
+  header {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+  .hamburger {
+    width: 30px;
+    height: 20px;
+  }
+  .main {
+    padding: 5px;
+  }
+  #quiz {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #quizInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 10px; */
+    top: 0;
+  }
+  #rowcon {
+    position: relative;
+    left: 75px;
+  }
+}
+
+/* tablet screen */
+@media (min-width: 426px) and (max-width: 768px) {
+  header {
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+  .hamburger {
+    width: 32px;
+    height: 22px;
+  }
+  .main {
+    padding: 5px;
+  }
+  #quiz {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+}
+
+/* laptop  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 2.5rem;
+  }
+  .hamburger {
+    width: 32px;
+    height: 22px;
+  }
+  .main {
+    padding: 5px;
+    font-size: larger;
+  }
+  #quiz {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+}
+
+/* large laptop */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  header {
+    padding: 0px 10px;
+    font-size: 25px;
+    height: 3.5rem;
+  }
+  .hamburger {
+    width: 36px;
+    height: 26px;
+  }
+  .main {
+    padding: 5px;
+    font-size: 5rem;
+  }
+  .main h3 {
+    font-size: 2.3rem;
+  }
+  #quiz {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+
+  .cardbg {
+    width: 20rem;
+    height: 20rem;
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .btn-start button {
+    width: 10rem;
+    height: 2.8rem;
+    font-size: large;
+  }
+  .row {
+    width: 18rem;
+    font-size: larger;
+    height: 3.5rem;
+  }
+  #Select {
+    font-size: 2.5rem;
+  }
+}
